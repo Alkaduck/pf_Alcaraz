@@ -1,0 +1,15 @@
+form {
+    width: 40%;
+    border-color:$colorsecundario;
+    margin: auto;
+  
+                      input{ 
+                         width: 100%;
+                         border: 2px solid $colorsecundario;
+                         border-radius: 10px;
+                         font-size: 16px;
+                         background-color: $colordefondo;
+                         height: 30px;
+                         }
+ 
+}

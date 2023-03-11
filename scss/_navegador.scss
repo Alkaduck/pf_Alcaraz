@@ -1,0 +1,68 @@
+/*Navegador*/
+
+
+.caja_nav{
+    background-color:$colorsecundario;
+    width: $ancho90porc;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: AUTO;
+
+            ul {    
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            list-style-type: none;
+            margin: 10px;
+            padding: 0;
+
+                    li {
+                        border-style: solid;
+                        border-width:2px;
+                        border-color: $colordefondo;
+                        display: flex;
+                        width:20%;
+                        text-align: center;
+                        justify-content: center;
+       
+                    }
+            }
+    
+}
+
+a:link {text-decoration: none;
+color: white;}
+a:visited {text-decoration: none;
+color: white;}
+a:hover {text-decoration: none;
+color: white;}
+a:active{text-decoration: none;
+color: white;}
+
+.caja_nav_home{
+    background-color:$colorsecundario;
+    width: $ancho90porc;
+    height: auto;
+    display: flex;
+    justify-content:flex-end;
+    margin: AUTO;
+
+            ul {    
+            display: flex;
+            width: 50%;
+            justify-content:flex-end;
+            list-style-type: none;
+            margin: 10px;
+            padding: 0;
+
+                    li {
+                        display: flex;
+                        width:20%;
+                        text-align: center;
+                        justify-content: center;
+       
+                    }
+            }
+    
+}

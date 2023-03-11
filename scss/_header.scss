@@ -1,0 +1,168 @@
+/* Header*/
+.caja_header{
+    width: $ancho90porc;
+    height: auto;
+    display: flex;
+    background-color: $colorsecundario;
+    margin: auto;
+    justify-content: space-between;
+    border-radius:5px;
+
+                        .caja_logo{
+                            width: 20%;
+                         display: flex;
+                            justify-content: center;
+                            margin:auto;
+
+                                    .logona{
+                                        width: 100%;
+                                        transition: transform 2s, width 2s;
+                                        }
+                                    
+                                    .logona:hover {
+                                        width: 200%;
+                                        transform: rotatez(1440deg);
+                                        }
+                        }
+    
+                        .caja_portada{
+                            width: 60%;
+                            display: flex;
+                            justify-content: center;
+                            margin: auto;
+
+                                    .imgportada{
+                                        width:90%
+                                    }
+                        }
+    
+                        .caja_derecha{
+                         width: 20%;
+                         display: flex;
+                         flex-direction: column;
+
+                                    .caja_logoschicos{
+                                       width: 100%;
+                                       height: auto;
+                                       display: flex; 
+                                       justify-content: center;  
+
+                                                        .logo_chico{
+                                                            width: 100%;
+                                                            background-color: $colorsecundario;
+                                                            display: flex;
+                                                            }
+                                                        
+                                                        .link_logo_chico{
+                                                            width: 33%;
+                                                            display: flex;
+                                                        }
+                            
+                                             }
+                                    .caja_animacion{
+                                       height: auto;
+                                       display: flex;
+                                                       .logos_animacion1 {
+                                                           width:100%;
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                       }
+                                                       
+                                                       .logos_animacion2 {
+                                                           width:100%;
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                       }
+                                                       
+                                                       .logos_animacion3 {
+                                                           width:100%;
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                       }
+                                                       
+                                                       .logos_animacion4 {
+                                                           width:100%;
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                       }    
+                                            }
+                                            
+                                                     
+
+                        }                  
+   }
+
+   /*ANIMACION*/
+
+
+@keyframes ani1 {
+    0%   {background-color:rgb(181, 237, 248);  top:0px;}
+    25%  {background-color:rgb(173, 182, 237);  top:15%;}
+    50%  {background-color:rgb(235, 184, 219);  top:35%;}
+    75%  {background-color:rgb(233, 193, 193); ; top:50%;}
+    100% {background-color:rgb(227, 232, 194); ; top:65%;}
+  }
+  
+  
+  .logos_animacion1 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes ani4 {
+    0%   {background-color:rgb(181, 237, 248);  top:50%;}
+    25%  {background-color:rgb(173, 182, 237);  top:65%;}
+    50%  {background-color:rgb(235, 184, 219);  top:0%;}
+    75%  {background-color:rgb(233, 193, 193);  top:15%;}
+    100% {background-color:rgb(227, 232, 194);  top:35%;}
+  }
+  
+  
+  .logos_animacion4 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes ani2 {
+    0%   {background-color:rgb(181, 237, 248);  top:15%;}
+    25%  {background-color:rgb(173, 182, 237);  top:35%;}
+    50%  {background-color:rgb(235, 184, 219);  top:50%;}
+    75%  {background-color:rgb(233, 193, 193);  top:65%;}
+    100% {background-color:rgb(227, 232, 194);  top:0%;}
+  }
+  
+  
+  .logos_animacion2 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes ani3 {
+    0%   {background-color:rgb(181, 237, 248);  top:35%;}
+    25%  {background-color:rgb(173, 182, 237);  top:50%;}
+    50%  {background-color:rgb(235, 184, 219);  top:65%;}
+    75%  {background-color:rgb(233, 193, 193); ; top:0%;}
+    100% {background-color:rgb(227, 232, 194); ; top:15%;}
+  }
+  
+  
+  .logos_animacion3 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }  

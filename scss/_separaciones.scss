@@ -1,0 +1,22 @@
+.separacion{
+    background-image: linear-gradient(to left,$colorsecundario,rgb(140, 169, 236));
+    border-style: solid;
+    border-width: 3px;
+    border-color: $colordefondo;
+    background-color: $colorsecundario;
+    height:30px;
+    width: $ancho90porc;
+    margin:10px auto;
+    }
+
+.separacion2{
+    background-image: linear-gradient(to right,$colorsecundario,rgb(140, 169, 236));
+    border-style: solid;
+    border-width: 3px;
+    border-color: $colordefondo;
+    background-color:$colorsecundario;
+    height:30px;
+    width: $ancho90porc;
+    margin: auto;
+    }    
+    

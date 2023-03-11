@@ -1,0 +1,162 @@
+@media screen and (max-width:991px) {
+        
+    .foottext {
+        color: $colordefondo ;
+        font-size: medium;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        position: relative; top:10% ;    
+    }
+
+    
+
+    }
+    
+    @media screen and (max-width:768px) {
+        
+        .caja_header{
+                     .caja_portada{display: none;}
+                     .caja_logo{width: 50%;}
+                     .caja_derecha{width: 50%;}
+        }
+        .caja_nav {
+                    ul {    
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    justify-content: center;
+                    list-style-type: none;
+                    padding: 0;
+
+                                li {
+                                    border-style: solid;
+                                    border-width:2px;
+                                    border-color: rgb(255, 255, 255);
+                                    display: flex;
+                                    width:100%;
+                                    text-align: center;
+                                    justify-content: center;
+                                   
+                                                }
+                                
+                    }
+                }
+         
+            .caja_nav_home{
+                background-color: $colorsecundario;
+                width: $ancho90porc;
+                height: auto;
+                display: flex;
+                               margin: AUTO;
+            
+                        ul {    
+                        display: flex;
+                        width:100%;
+                        list-style-type: none;
+                        margin: 10px;
+                        padding: 0;
+            
+                                li {
+                                    display: flex;
+                                    width:33%;
+                                    text-align: center;
+                                    justify-content: center;
+                                    font-size: 22px;    
+                                }
+                        }
+                
+            }
+
+         
+            .Caja_productos{
+                margin: auto;
+                padding: auto;
+                width: $ancho90porc;
+                display:grid;
+                grid-template-columns: 100%;
+            
+                                           .producto1{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }     
+                                           .producto2{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }     
+                                              .producto3{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              
+                                              }     
+                                           .producto4{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                               
+                                              }     
+                                              .producto5{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }     
+                                           .producto6{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }  
+                                              
+                                            .textoprod {
+                                                width: 100%;
+                                                font-size: small;
+                                                color: rgb(255, 255, 255);
+                                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            }
+                                        }            
+
+
+
+            .contenedor_logosredes{
+                width: $ancho90porc;
+                display: grid;
+                grid-template-columns:20% 80% ;
+                grid-template-rows:auto auto auto ;
+                background-color: $colorsecundario;
+                margin: auto;
+                height:auto;
+                text-align: left;
+                font-size:xx-large;
+
+                                            .foottext {
+                                                color: white;
+                                                font-size: 22px;
+                                                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+                                                position: relative; top:25% ;    
+                                            }    
+                }
+               
+                
+                
+                .caja_contacto {margin: auto;
+                    border-style: solid;
+                    border-width: 10px;
+                    width: $ancho90porc;
+                    border-color: $colorsecundario;
+                                                    .formconta{ width: 100%;  
+                                                                margin: auto;                  
+    
+                                                                                       .campos_contacto {
+                                                                                                    margin: auto;
+                                                                                                    width: 100%;
+                                                                                    
+                                                                                    
+                                                                                                                textarea {width: 100%;
+                                                                                                                          height: 100px; 
+                                                                                                                             }
+                                                                                       }
+                                                            }
+                    }                                                        
+        
+        
+    }
