@@ -2,6 +2,7 @@ form {
     width: 40%;
     border-color:$colorsecundario;
     margin: auto;
+    font-family:$fuente ;
   
                       input{ 
                          width: 100%;
@@ -10,6 +11,7 @@ form {
                          font-size: 16px;
                          background-color: $colordefondo;
                          height: 30px;
+                         
                          }
  
 }

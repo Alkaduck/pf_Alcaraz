@@ -193,27 +193,34 @@ body {
     .contenedor_logosredes .ftexto .foottext {
       color: white;
       font-size: small;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
       position: relative;
       top: 35%; }
 
 /*Carrito*/
 .caja_costos {
   width: 80%;
+  background-color: #f1f3c7;
   border-style: solid;
-  border-width: 1px;
-  border-color: #0c1937; }
+  border-color: #0c1937;
+  border-width: 5px;
+  margin: 10px auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
 .titulo_carrito {
   width: 80%;
+  background-color: #f1f3c7;
   border-style: solid;
-  border-width: 1px;
-  border-color: #0c1937; }
+  border-color: #0c1937;
+  border-width: 5px;
+  margin: 10px auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
 form {
   width: 40%;
   border-color: #0c1937;
-  margin: auto; }
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   form input {
     width: 100%;
     border: 2px solid #0c1937;
@@ -240,7 +247,7 @@ ul {
       padding: 10px;
       text-transform: uppercase;
       text-decoration: none;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
     ul li ul {
       width: 100%;
       position: absolute;
@@ -261,42 +268,40 @@ ul li:hover ul a:hover {
   border-width: 5px;
   border-color: #0c1937;
   width: 70%;
-  padding: 15px; }
+  padding: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
 /*PAGINA DE INICIO*/
-article {
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: x-large;
-  width: 90%;
-  background-color: #0c1937;
-  margin: auto;
-  color: white; }
-
 .contenedor_grande {
   width: 90%;
   display: flex;
   justify-content: center;
-  background-color: #0c1937;
+  background-color: #f1f3c7;
   margin: auto; }
-
-.cajacaba {
-  width: 20%;
-  display: flex;
-  justify-content: right;
-  background-color: #0c1937; }
-
-.cajadama {
-  width: 20%;
-  display: flex;
-  justify-content: left;
-  background-color: #0c1937; }
-
-.imgcaba {
-  width: 100%; }
-
-.imgdama {
-  width: 100%; }
+  .contenedor_grande .cajacaba {
+    width: 100%;
+    display: flex;
+    background-color: #f1f3c7;
+    margin: 5px; }
+    .contenedor_grande .cajacaba .imgcaba {
+      width: 100%;
+      margin: 5px;
+      background-color: #f1f3c7;
+      border-style: solid;
+      border-color: #0c1937;
+      border-width: 1px; }
+  .contenedor_grande .cajadama {
+    width: 100%;
+    display: flex;
+    background-color: #f1f3c7;
+    margin: 5px; }
+    .contenedor_grande .cajadama .imgdama {
+      width: 100%;
+      margin: 5px;
+      background-color: #f1f3c7;
+      border-style: solid;
+      border-color: #0c1937;
+      border-width: 1px; }
 
 /*Caja productos*/
 .Caja_productos {
@@ -309,41 +314,62 @@ article {
     padding: 30px;
     grid-column: 1/2;
     width: 80%;
-    margin: 10px auto;
     background-color: #f1f3c7;
     border-style: solid;
     border-color: #0c1937;
-    border-width: 15px; }
+    border-width: 5px;
+    margin: 10px auto; }
   .Caja_productos .producto2 {
     padding: 30px;
     grid-column: 2/3;
     width: 80%;
+    background-color: #f1f3c7;
+    border-style: solid;
+    border-color: #0c1937;
+    border-width: 5px;
     margin: 10px auto; }
   .Caja_productos .producto3 {
     padding: 30px;
     grid-column: 1/2;
     width: 80%;
+    background-color: #f1f3c7;
+    border-style: solid;
+    border-color: #0c1937;
+    border-width: 5px;
     margin: 10px auto; }
   .Caja_productos .producto4 {
     padding: 30px;
     grid-column: 2/3;
     width: 80%;
+    background-color: #f1f3c7;
+    border-style: solid;
+    border-color: #0c1937;
+    border-width: 5px;
     margin: 10px auto; }
   .Caja_productos .producto5 {
     padding: 30px;
     grid-column: 1/2;
     width: 80%;
+    background-color: #f1f3c7;
+    border-style: solid;
+    border-color: #0c1937;
+    border-width: 5px;
     margin: 10px auto; }
   .Caja_productos .producto6 {
     padding: 30px;
     grid-column: 2/3;
     width: 80%;
+    background-color: #f1f3c7;
+    border-style: solid;
+    border-color: #0c1937;
+    border-width: 5px;
     margin: 10px auto; }
   .Caja_productos .textoprod {
     width: 100%;
+    text-align: center;
     font-size: medium;
     color: #0c1937;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
 .separacion {
   background-image: linear-gradient(to left, #0c1937, #8ca9ec);
@@ -482,10 +508,12 @@ article {
 
 .caja_contacto {
   margin: auto;
+  background-color: #f1f3c7;
   border-style: solid;
-  border-width: 10px;
+  border-color: #0c1937;
+  border-width: 5px;
   width: 90%;
-  border-color: #0c1937; }
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   .caja_contacto .formconta {
     margin: auto;
     padding: 15px; }

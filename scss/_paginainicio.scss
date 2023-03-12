@@ -1,42 +1,45 @@
 /*PAGINA DE INICIO*/
 
-article {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    width: $ancho90porc;
-    background-color: rgb(12, 25, 55);
-    margin:auto;
-    color: white;
-}
+
 
 
 .contenedor_grande{
 width: $ancho90porc;
 display: flex;
 justify-content:center;
-background-color:$colorsecundario;
+background-color:$colordefondo;
 margin: auto;
+
+                                   .cajacaba {
+                                       width: 100%;
+                                       display: flex;
+                                       background-color:$colordefondo;
+                                       margin: 5px;
+
+
+
+                                                                              .imgcaba{
+                                                                               width:100%;
+                                                                               margin: 5px;
+                                                                               @include bordes ($colordefondo,solid,$colorsecundario,1px)
+                                                                               }
+                                    
+                                   }
+                                   
+                                   .cajadama {
+                                       width: 100%;
+                                       display: flex;
+                                       background-color: $colordefondo;
+                                       margin: 5px;
+
+                                                                               .imgdama{
+                                                                                width:100%;
+                                                                                margin: 5px;
+                                                                                @include bordes ($colordefondo,solid,$colorsecundario,1px)
+                                                                                   }
+                                   }
 }
 
-.cajacaba {
-    width: 20%;
-    display: flex;
-    justify-content:right;
-    background-color:$colorsecundario;
-}
 
-.cajadama {
-    width: 20%;
-    display: flex;
-    justify-content:left;
-    background-color: $colorsecundario;
-}
 
-.imgcaba{
-    width:100%
-}
 
-.imgdama{
-    width:100%
-}
