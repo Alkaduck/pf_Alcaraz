@@ -7,33 +7,48 @@
     grid-template-columns: 50% 50%;
 
                                .producto1{
+                                   padding: 30px; 
                                    grid-column: 1/2;
                                    width: 80%;
                                    margin: 10px auto;
-                                  }     
+                                   background-color: $colordefondo;
+                                   border-style: solid;
+                                   border-color: $colorsecundario;
+                                   border-width: 15px;
+                                  }
+
                                .producto2{
+                                   padding: 30px; 
                                    grid-column: 2/3;
                                    width: 80%;
                                    margin: 10px auto;
-                                  }     
+                                  }
+
                                   .producto3{
+                                   padding: 30px; 
                                    grid-column: 1/2;
                                    width: 80%;
                                    margin: 10px auto;
                                   
-                                  }     
+                                  }
+
                                .producto4{
+                                   padding: 30px; 
                                    grid-column: 2/3;
                                    width: 80%;
                                    margin: 10px auto;
                                    
-                                  }     
+                                  }
+
                                   .producto5{
+                                   padding: 30px; 
                                    grid-column: 1/2;
                                    width: 80%;
                                    margin: 10px auto;
-                                  }     
+                                  }    
+
                                .producto6{
+                                   padding: 30px; 
                                    grid-column: 2/3;
                                    width: 80%;
                                    margin: 10px auto;
@@ -42,7 +57,7 @@
                                 .textoprod {
                                     width: 100%;
                                     font-size: medium;
-                                    color: $colordefondo;
+                                    color: $colorsecundario;
                                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                                 }
                 

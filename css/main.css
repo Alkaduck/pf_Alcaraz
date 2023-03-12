@@ -190,12 +190,12 @@ body {
   .contenedor_logosredes .ftexto {
     width: 100%;
     height: auto; }
-  .contenedor_logosredes .foottext {
-    color: white;
-    font-size: small;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    top: 25%; }
+    .contenedor_logosredes .ftexto .foottext {
+      color: white;
+      font-size: small;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: relative;
+      top: 35%; }
 
 /*Carrito*/
 .caja_costos {
@@ -222,65 +222,37 @@ form {
     background-color: #f1f3c7;
     height: 30px; }
 
-/*Navegador*/
-.caja_nav {
-  background-color: #0c1937;
-  width: 90%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  margin: AUTO; }
-  .caja_nav ul {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    list-style-type: none;
-    margin: 10px;
-    padding: 0; }
-    .caja_nav ul li {
-      border-style: solid;
-      border-width: 2px;
-      border-color: #f1f3c7;
-      display: flex;
-      width: 20%;
+ul {
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+  margin: 0% 5%; }
+  ul li {
+    display: inline-block;
+    width: 33.33%;
+    position: relative; }
+    ul li a {
+      font-size: 14px;
       text-align: center;
-      justify-content: center; }
+      display: block;
+      color: white;
+      background-color: #0c1937;
+      padding: 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    ul li ul {
+      width: 100%;
+      position: absolute;
+      display: none; }
+      ul li ul li {
+        width: 100%; }
 
-a:link {
-  text-decoration: none;
-  color: white; }
+ul li:hover ul {
+  display: block; }
 
-a:visited {
-  text-decoration: none;
-  color: white; }
-
-a:hover {
-  text-decoration: none;
-  color: white; }
-
-a:active {
-  text-decoration: none;
-  color: white; }
-
-.caja_nav_home {
-  background-color: #0c1937;
-  width: 90%;
-  height: auto;
-  display: flex;
-  justify-content: flex-end;
-  margin: AUTO; }
-  .caja_nav_home ul {
-    display: flex;
-    width: 50%;
-    justify-content: flex-end;
-    list-style-type: none;
-    margin: 10px;
-    padding: 0; }
-    .caja_nav_home ul li {
-      display: flex;
-      width: 20%;
-      text-align: center;
-      justify-content: center; }
+ul li:hover ul a:hover {
+  background-color: RoyalBlue; }
 
 /*Nuevo usuario*/
 .caja_nuevo_usu {
@@ -334,33 +306,43 @@ article {
   display: grid;
   grid-template-columns: 50% 50%; }
   .Caja_productos .producto1 {
+    padding: 30px;
     grid-column: 1/2;
     width: 80%;
-    margin: 10px auto; }
+    margin: 10px auto;
+    background-color: #f1f3c7;
+    border-style: solid;
+    border-color: #0c1937;
+    border-width: 15px; }
   .Caja_productos .producto2 {
+    padding: 30px;
     grid-column: 2/3;
     width: 80%;
     margin: 10px auto; }
   .Caja_productos .producto3 {
+    padding: 30px;
     grid-column: 1/2;
     width: 80%;
     margin: 10px auto; }
   .Caja_productos .producto4 {
+    padding: 30px;
     grid-column: 2/3;
     width: 80%;
     margin: 10px auto; }
   .Caja_productos .producto5 {
+    padding: 30px;
     grid-column: 1/2;
     width: 80%;
     margin: 10px auto; }
   .Caja_productos .producto6 {
+    padding: 30px;
     grid-column: 2/3;
     width: 80%;
     margin: 10px auto; }
   .Caja_productos .textoprod {
     width: 100%;
     font-size: medium;
-    color: #f1f3c7;
+    color: #0c1937;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .separacion {
@@ -505,7 +487,8 @@ article {
   width: 90%;
   border-color: #0c1937; }
   .caja_contacto .formconta {
-    margin: auto; }
+    margin: auto;
+    padding: 15px; }
     .caja_contacto .formconta .campos_contacto {
       margin: auto;
       width: 75%; }
