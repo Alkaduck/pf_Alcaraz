@@ -13,3 +13,12 @@
     margin: 10px auto; 
     font-family: $fuente;
              }
+
+.formcarrito { 
+    @include bordes ($colordefondo,solid,$colorsecundario,5px);
+
+
+                                                                .camposform {
+                                                                    margin: 10px;
+                                                                }
+}             

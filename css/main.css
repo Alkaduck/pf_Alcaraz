@@ -13,7 +13,7 @@ body {
   height: auto;
   display: flex;
   background-color: #0c1937;
-  margin: auto;
+  margin: 20px auto;
   justify-content: space-between;
   border-radius: 5px; }
   .caja_header .caja_logo {
@@ -216,6 +216,14 @@ body {
   margin: 10px auto;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
+.formcarrito {
+  background-color: #f1f3c7;
+  border-style: solid;
+  border-color: #0c1937;
+  border-width: 5px; }
+  .formcarrito .camposform {
+    margin: 10px; }
+
 form {
   width: 40%;
   border-color: #0c1937;
@@ -237,7 +245,8 @@ ul {
   ul li {
     display: inline-block;
     width: 33.33%;
-    position: relative; }
+    position: relative;
+    text-align: center; }
     ul li a {
       font-size: 14px;
       text-align: center;
@@ -267,15 +276,16 @@ ul li:hover ul a:hover {
   border-style: solid;
   border-width: 5px;
   border-color: #0c1937;
-  width: 70%;
+  width: 90%;
   padding: 15px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  .caja_nuevo_usu .formnuevousu {
+    width: 80%; }
 
 /*PAGINA DE INICIO*/
 .contenedor_grande {
   width: 90%;
   display: flex;
-  justify-content: center;
   background-color: #f1f3c7;
   margin: auto; }
   .contenedor_grande .cajacaba {
@@ -391,14 +401,6 @@ ul li:hover ul a:hover {
   width: 90%;
   margin: auto; }
 
-@media screen and (max-width: 991px) {
-  .foottext {
-    color: #f1f3c7;
-    font-size: medium;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: relative;
-    top: 10%; } }
-
 @media screen and (max-width: 768px) {
   .caja_header .caja_portada {
     display: none; }
@@ -406,6 +408,8 @@ ul li:hover ul a:hover {
     width: 50%; }
   .caja_header .caja_derecha {
     width: 50%; }
+    .caja_header .caja_derecha .caja_animacion {
+      display: none; }
   .caja_nav ul {
     display: flex;
     flex-direction: column;
@@ -421,24 +425,6 @@ ul li:hover ul a:hover {
       width: 100%;
       text-align: center;
       justify-content: center; }
-  .caja_nav_home {
-    background-color: #0c1937;
-    width: 90%;
-    height: auto;
-    display: flex;
-    margin: AUTO; }
-    .caja_nav_home ul {
-      display: flex;
-      width: 100%;
-      list-style-type: none;
-      margin: 10px;
-      padding: 0; }
-      .caja_nav_home ul li {
-        display: flex;
-        width: 33%;
-        text-align: center;
-        justify-content: center;
-        font-size: 22px; }
   .Caja_productos {
     margin: auto;
     padding: auto;
