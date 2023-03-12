@@ -427,6 +427,18 @@ ul li:hover ul a:hover {
       width: 100%;
       text-align: center;
       justify-content: center; }
+  form {
+    width: 40%;
+    border-color: #0c1937;
+    margin: auto;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    form input {
+      width: 100%;
+      border: 2px solid #0c1937;
+      border-radius: 10px;
+      font-size: 16px;
+      background-color: white;
+      height: 30px; }
   .Caja_productos {
     margin: auto;
     padding: auto;
@@ -436,31 +448,38 @@ ul li:hover ul a:hover {
     .Caja_productos .producto1 {
       grid-column: 1/2;
       width: 80%;
-      margin: 10px auto; }
+      margin: 10px auto;
+      background-color: white; }
     .Caja_productos .producto2 {
       grid-column: 1/2;
       width: 80%;
-      margin: 10px auto; }
+      margin: 10px auto;
+      background-color: white; }
     .Caja_productos .producto3 {
       grid-column: 1/2;
       width: 80%;
-      margin: 10px auto; }
+      margin: 10px auto;
+      background-color: white; }
     .Caja_productos .producto4 {
       grid-column: 1/2;
       width: 80%;
-      margin: 10px auto; }
+      margin: 10px auto;
+      background-color: white; }
     .Caja_productos .producto5 {
       grid-column: 1/2;
       width: 80%;
-      margin: 10px auto; }
+      margin: 10px auto;
+      background-color: white; }
     .Caja_productos .producto6 {
       grid-column: 1/2;
+      background-color: white;
       width: 80%;
-      margin: 10px auto; }
+      margin: 10px auto;
+      background-color: white; }
     .Caja_productos .textoprod {
       width: 100%;
       font-size: small;
-      color: white;
+      color: #0c1937;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .contenedor_logosredes {
     width: 90%;
@@ -478,6 +497,24 @@ ul li:hover ul a:hover {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       position: relative;
       top: 25%; }
+  .separacion {
+    background-image: linear-gradient(to left, #0c1937, #8ca9ec);
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    background-color: #0c1937;
+    height: 30px;
+    width: 90%;
+    margin: 10px auto; }
+  .separacion2 {
+    background-image: linear-gradient(to right, #0c1937, #8ca9ec);
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    background-color: #0c1937;
+    height: 30px;
+    width: 90%;
+    margin: auto; }
   .caja_contacto {
     margin: auto;
     border-style: solid;

@@ -35,7 +35,23 @@
                 }
          
             
-
+                form {
+                    width: 40%;
+                    border-color:$colorsecundario;
+                    margin: auto;
+                    font-family:$fuente ;
+                  
+                                      input{ 
+                                         width: 100%;
+                                         border: 2px solid $colorsecundario;
+                                         border-radius: 10px;
+                                         font-size: 16px;
+                                         background-color: white;
+                                         height: 30px;
+                                         
+                                         }
+                 
+                }    
          
             .Caja_productos{
                 margin: auto;
@@ -48,39 +64,46 @@
                                                grid-column: 1/2;
                                                width: 80%;
                                                margin: 10px auto;
+                                               background-color: white;
                                               }     
                                            .producto2{
                                                grid-column: 1/2;
                                                width: 80%;
                                                margin: 10px auto;
+                                               background-color: white;
                                               }     
                                               .producto3{
                                                grid-column: 1/2;
                                                width: 80%;
                                                margin: 10px auto;
+                                               background-color: white;
                                               
                                               }     
                                            .producto4{
                                                grid-column: 1/2;
                                                width: 80%;
                                                margin: 10px auto;
+                                               background-color: white;
                                                
                                               }     
                                               .producto5{
                                                grid-column: 1/2;
                                                width: 80%;
                                                margin: 10px auto;
+                                               background-color: white;
                                               }     
                                            .producto6{
                                                grid-column: 1/2;
+                                               background-color: white;
                                                width: 80%;
                                                margin: 10px auto;
+                                               background-color: white;
                                               }  
                                               
                                             .textoprod {
                                                 width: 100%;
                                                 font-size: small;
-                                                color: rgb(255, 255, 255);
+                                                color: $colorsecundario;
                                                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                                             }
                                         }            
@@ -106,7 +129,27 @@
                                             }    
                 }
                
+                .separacion{
+                    background-image: linear-gradient(to left,$colorsecundario,rgb(140, 169, 236));
+                    border-style: solid;
+                    border-width: 3px;
+                    border-color: white;
+                    background-color: $colorsecundario;
+                    height:30px;
+                    width: $ancho90porc;
+                    margin:10px auto;
+                    }
                 
+                .separacion2{
+                    background-image: linear-gradient(to right,$colorsecundario,rgb(140, 169, 236));
+                    border-style: solid;
+                    border-width: 3px;
+                    border-color: white;
+                    background-color:$colorsecundario;
+                    height:30px;
+                    width: $ancho90porc;
+                    margin: auto;
+                    }   
                 
                 .caja_contacto {margin: auto;
                     border-style: solid;
