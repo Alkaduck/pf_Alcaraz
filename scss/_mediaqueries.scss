@@ -52,6 +52,41 @@
                                          }
                  
                 }    
+                .contenedor_grande{
+                    width: $ancho90porc;
+                    display: flex;
+                    background-color:white;
+                    margin: auto;
+                    
+                                                       .cajacaba {
+                                                           width: 100%;
+                                                           display: flex;
+                                                           background-color:white;
+                                                           margin: 5px;
+                    
+                    
+                    
+                                                                                                  .imgcaba{
+                                                                                                   width:100%;
+                                                                                                   margin: 5px;
+                                                                                                   @include bordes (white,solid,$colorsecundario,1px)
+                                                                                                   }
+                                                        
+                                                       }
+                                                       
+                                                       .cajadama {
+                                                           width: 100%;
+                                                           display: flex;
+                                                           background-color:white;
+                                                           margin: 5px;
+                    
+                                                                                                   .imgdama{
+                                                                                                    width:100%;
+                                                                                                    margin: 5px;
+                                                                                                    @include bordes (white,solid,$colorsecundario,1px)
+                                                                                                       }
+                                                       }
+                    }
          
             .Caja_productos{
                 margin: auto;

@@ -439,6 +439,35 @@ ul li:hover ul a:hover {
       font-size: 16px;
       background-color: white;
       height: 30px; }
+  .contenedor_grande {
+    width: 90%;
+    display: flex;
+    background-color: white;
+    margin: auto; }
+    .contenedor_grande .cajacaba {
+      width: 100%;
+      display: flex;
+      background-color: white;
+      margin: 5px; }
+      .contenedor_grande .cajacaba .imgcaba {
+        width: 100%;
+        margin: 5px;
+        background-color: white;
+        border-style: solid;
+        border-color: #0c1937;
+        border-width: 1px; }
+    .contenedor_grande .cajadama {
+      width: 100%;
+      display: flex;
+      background-color: white;
+      margin: 5px; }
+      .contenedor_grande .cajadama .imgdama {
+        width: 100%;
+        margin: 5px;
+        background-color: white;
+        border-style: solid;
+        border-color: #0c1937;
+        border-width: 1px; }
   .Caja_productos {
     margin: auto;
     padding: auto;
