@@ -11,11 +11,8 @@
                                    grid-column: 1/2;
                                    width: 80%;
                                    margin: 10px auto;
-                                   background-color: $colordefondo;
-                                   border-style: solid;
-                                   border-color: $colorsecundario;
-                                   border-width: 15px;
-                                  }
+                                   @include bordes ($colordefondo,solid,$colorsecundario,15px)
+                                         }
 
                                .producto2{
                                    padding: 30px; 
