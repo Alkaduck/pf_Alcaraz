@@ -402,6 +402,8 @@ ul li:hover ul a:hover {
   margin: auto; }
 
 @media screen and (max-width: 768px) {
+  body {
+    background-color: white; }
   .caja_header .caja_portada {
     display: none; }
   .caja_header .caja_logo {
